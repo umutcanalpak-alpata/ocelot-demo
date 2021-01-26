@@ -21,6 +21,7 @@ namespace ocelot_demo
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();
-                });
+                })
+                .ConfigureLogging(logging => logging.AddConsole());
     }
 }
