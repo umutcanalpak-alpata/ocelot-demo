@@ -5,4 +5,8 @@
     <RootNamespace>ocelot_demo</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Ocelot" Version="16.0.1" />
+  </ItemGroup>
+
 </Project>
